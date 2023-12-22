@@ -47,13 +47,13 @@
                 <div class="text-center mb-5">
                     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
                 </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                <div class="d-flex flex-row  justify-content-center flex-wrap">
+                    <div class="col-xl-12 col-xxl-6 d-flex flex-fill ">
                         <!-- Project Card 1-->
-                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                            <div class="card-body p-0">
-                                <div class="d-flex align-items-center">
-                                    <div class="p-5">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 me-xxl-3 w-100">
+                            <div class="card-body p-0 ">
+                                <div class="d-flex flex-row align-items-center flex-sm-wrap">
+                                    <div class="col-md-8 col-12 p-5">
                                         <h2 class="fw-bolder">Instructional Videos</h2>
                                         <p>These videos were made by me for online instruction at Oregon State
                                             University.</p>
@@ -68,15 +68,45 @@
                                                 href="videos_MechanicalPropertiesOfMaterials.html">Mechanical Properties
                                                 of Materials</a><br>
                                     </div>
-                                    <img class="img-fluid" src="assets/videos300x400.png" alt="..." />
+                                    <div class="col-md-4 col-12 px-md-0 px-5">
+                                        <img class="img-fluid ms-auto" src="assets/videos300x400.png" alt="..." />
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-xl-12 col-xxl-6 d-flex flex-fill">
+                        <!-- Project Card Programming -->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 ms-xxl-3">
+                            <div class="card-body p-0">
+                                <div class="d-flex flex-row align-items-center flex-sm-wrap">
+                                    <div class="col-md-8 col-12 p-5">
+                                        <h2 class="fw-bolder">Programming and Web Development</h2>
+                                        <p><a class="btn btn-primary btn-xl"
+                                                href="https://drrawleyyelpcamp.onrender.com">YelpCamp</a>
+                                        <p>This project demonstrates full-stack web development. Runs on a
+                                            Render.com
+                                            web service. Uses Express as a server. MongoDB as the database.
+                                            Cloudinary
+                                            to store images. Mapbox to power the maps. <i>Runs on the free service so it
+                                                takes a few seconds to boot up when first requested.</i></p><br>
+
+                                    </div>
+                                    <div class="col-md-4 col-12 px-md-0 px-5">
+                                        <img class="img-fluid ms-auto" src="assets/programming.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col">
                         <!-- Project Card 2-->
                         <div class="card overflow-hidden shadow rounded-4 border-0">
                             <div class="card-body p-0">
-                                <div class="d-flex align-items-center">
-                                    <div class="p-5">
+                                <div class="d-flex flex-row align-items-center flex-sm-wrap ">
+                                    <div class="col-md-8 col-12 p-5">
                                         <h2 class="fw-bolder">Games</h2>
                                         <p><a class="btn btn-primary btn-xl" href="BigYellowSun/game.html">Big Yellow
                                                 Sun Game</a> Try to identify the sun. This is basically an excuse to
@@ -86,12 +116,16 @@
                                         <p><a class="btn btn-primary btn-xl" href="SpaceShooter/game.html">Space
                                                 Shooter</a> A classic-style 2D Space Shooter.
                                     </div>
-                                    <img class="img-fluid" src="assets/games300x400.png" alt="..." />
+                                    <div class="col-md-4 col-12 px-md-0 px-5 justify-content-center align-items-center">
+                                        <img class="img-fluid" src="assets/games300x400.png" alt="..." />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
             </div>
         </section>
         <!-- Call to action section-->
@@ -109,7 +143,7 @@
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small m-0">Copyright &copy; Rawley Greene 2023</div>
+                    <div class="small m-0">Copyright &copy; Rawley Greene 2024</div>
                 </div>
                 <div class="col-auto">
                     <a class="small" href="#!">Privacy</a>
